@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+2 info using npm@3.3.3
+3 info using node@v4.1.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle first_react_app@1.0.0~prebuild: first_react_app@1.0.0
+6 silly lifecycle first_react_app@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle first_react_app@1.0.0~build: first_react_app@1.0.0
+8 verbose lifecycle first_react_app@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle first_react_app@1.0.0~build: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/justin/code/react/first_react_app/node_modules/.bin:/usr/local/heroku/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/MAMP/Library/bin:/Applications/MAMP/Library/bin:/usr/local/bin:/opt/oracle/instantclient_11_2:/Users/justin/.rvm/bin
+10 verbose lifecycle first_react_app@1.0.0~build: CWD: /Users/justin/code/react/first_react_app
+11 silly lifecycle first_react_app@1.0.0~build: Args: [ '-c', 'webpack' ]
+12 info lifecycle first_react_app@1.0.0~build: Failed to exec build script
+13 verbose stack Error: first_react_app@1.0.0 build: `webpack`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:817:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid first_react_app@1.0.0
+15 verbose cwd /Users/justin/code/react/first_react_app/app
+16 error Darwin 16.3.0
+17 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+18 error node v4.1.0
+19 error npm  v3.3.3
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error first_react_app@1.0.0 build: `webpack`
+24 error spawn ENOENT
+25 error Failed at the first_react_app@1.0.0 build script 'webpack'.
+25 error This is most likely a problem with the first_react_app package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     webpack
+25 error You can get their info via:
+25 error     npm owner ls first_react_app
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
